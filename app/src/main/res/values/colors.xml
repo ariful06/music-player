@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#363457</color>
+    <color name="colorPrimaryDark">#262633</color>
+    <color name="colorAccent">#969300</color>
+    <color name="colorLight">#439889</color>
+    <color name="text">#FFFF</color>
+    <color name="button">#e64702</color>
+
+    <color name="textColor">#009688</color>
+    <color name="civ_border_color">#f7eaeaea</color>
+</resources>

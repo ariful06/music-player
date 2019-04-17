@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".WeatherApp.WeatherActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+    <TextView
+        android:id="@+id/text_view_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City Name"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="30dp"
+        />
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/weather"
+        />
+    <TextView
+        android:id="@+id/text_view_last_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last update:"
+        android:textStyle="bold"
+       android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/text_view_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desctription"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/text_view_humidity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Humidity"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/text_view_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:gravity="center"
+        />
+
+   <TextView
+        android:id="@+id/text_view_celsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temp:"
+        android:textStyle="bold"
+       android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:gravity="center"
+        />
+</LinearLayout>

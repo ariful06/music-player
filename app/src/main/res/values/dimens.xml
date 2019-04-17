@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="min_widget_width">250dp</dimen>
+    <dimen name="min_widget_height">250dp</dimen>
+
+    <dimen name="button_text_size">28sp</dimen>
+    <dimen name="formula_text_size">20sp</dimen>
+    <dimen name="display_text_size">40sp</dimen>
+
+    <dimen name="default_spacing_small">4dp</dimen>
+    <dimen name="default_spacing_medium">8dp</dimen>
+    <dimen name="default_spacing_huge">128dp</dimen>
+
+    <dimen name="margin_large">22dp</dimen>
+    <dimen name="margin_small">6dp</dimen>
+
+
+</resources>
